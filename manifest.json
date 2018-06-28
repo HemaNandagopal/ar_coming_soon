@@ -1,0 +1,4 @@
+{
+  "dev.js": "./build/dev.poc.js",
+  "dist.js": "./build/dist.poc.js"
+}

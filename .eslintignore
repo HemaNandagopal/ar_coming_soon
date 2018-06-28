@@ -1,0 +1,5 @@
+build/**
+demo/**
+img/**
+node_modules/**
+translations/**
