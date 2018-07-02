@@ -1,11 +1,7 @@
 {
   "name": "@pearson-incubator/coming_soon",
   "version": "1.0.6",
-<<<<<<< HEAD
   "description": "To describe that the component is under progress",
-=======
-  "description": "",
->>>>>>> 69cca6fb079dcfdd256c929f9f76d1ff82ac938f
   "main": "./main.js",
   "scripts": {
     "start": "webpack-dev-server --port 4040 --hot --progress --colors",
