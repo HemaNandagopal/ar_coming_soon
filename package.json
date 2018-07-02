@@ -1,7 +1,11 @@
 {
   "name": "@pearson-incubator/coming_soon",
-  "version": "1.0.0",
+  "version": "1.0.6",
+<<<<<<< HEAD
+  "description": "To describe that the component is under progress",
+=======
   "description": "",
+>>>>>>> 69cca6fb079dcfdd256c929f9f76d1ff82ac938f
   "main": "./main.js",
   "scripts": {
     "start": "webpack-dev-server --port 4040 --hot --progress --colors",
@@ -16,9 +20,12 @@
     "release": "node ./npm_scripts/release.js",
     "verify": "node ./npm_scripts/verify.js"
   },
-  "author": "Hema",
-  "license": "MIT",
-  "repository": {},
+  "author": "Hema Nandagopal",
+  "license": "PEARSON PROPRIETARY AND CONFIDENTIAL INFORMATION SUBJECT TO NDA",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.pearson.com/projects/PLAAC/repos/ar_coming_soon"
+   },
   "dependencies": {
     "node-sass": "^4.9.0",
     "prop-types": "15.5.10",
@@ -64,11 +71,11 @@
     "babel-plugin-transform-object-assign": "6.22.0",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-polyfill": "6.7.4",
-    "babel-preset-es2015": "6.24.1",
-    "babel-preset-react": "6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
     "babel-preset-react-native": "^4.0.0",
-    "babel-preset-stage-0": "6.24.1",
-    "babel-register": "6.26.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
     "copy-webpack-plugin": "^4.1.0",
     "css-loader": "0.28.7",
     "enzyme": "^2.9.1",
